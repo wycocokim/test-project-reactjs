@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "tt-hoves";
+  src: url(fonts/TT\ Hoves\ Regular.otf);
+  font-style: normal;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "tt-hoves";
+  src: url(fonts/TT\ Hoves\ Medium.otf);
+  font-style: normal;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  font-family: "tt-hoves";
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }

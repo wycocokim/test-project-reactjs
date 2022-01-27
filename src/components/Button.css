@@ -1,0 +1,28 @@
+.btn {
+  padding: 18px 28px;
+  font-family: "tt-hoves";
+  font-weight: 500;
+  background-color: #0066ff;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn.btn-small {
+  padding: 12px 20px;
+  font-size: 14px;
+  line-height: 16.49px;
+}
+
+.btn.btn-small.outline {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.btn-margin-left {
+  margin-left: 8px;
+}
