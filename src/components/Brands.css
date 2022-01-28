@@ -1,0 +1,23 @@
+.container.brands {
+  padding: 0 216px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 144px;
+}
+
+.brand {
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+}
+
+.paragraph-3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.paragraph-3.p-3-gray {
+  max-width: 212px;
+  opacity: 30%;
+}

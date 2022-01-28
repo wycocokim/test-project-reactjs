@@ -1,0 +1,32 @@
+.container.faq {
+  padding: 104px 216px 94px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 136px;
+  row-gap: 90px;
+  max-width: fit-content;
+}
+
+.grid-2-heading {
+  margin-bottom: 22px;
+}
+
+.paragraph-2.grid-2-text {
+  opacity: 50%;
+  max-width: 382px;
+}
+
+.btn.btn-small.outline.with-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+}
+.play-icon {
+  margin-right: 12px;
+}
+.border-bottom {
+  border-bottom: 1px solid #f0f0f0;
+}
