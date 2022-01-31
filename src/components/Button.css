@@ -11,6 +11,28 @@
   cursor: pointer;
 }
 
+.btn.btn.margin-top-m {
+  margin-top: 55px;
+}
+
+.btn.gray {
+  background-color: gray;
+}
+
+.btn.outline {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.btn.out.max-w {
+  width: 100%;
+}
+
+.btn.outline.margin-top-large {
+  margin-top: 138px;
+}
+
 .btn.btn-small {
   padding: 12px 20px;
   font-size: 14px;

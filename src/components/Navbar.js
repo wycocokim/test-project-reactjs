@@ -1,14 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 import "./Navbar.css";
 import logo from "../assets/logo.svg";
 import searchIcon from "../assets/search.svg";
+import closeIcon from "../assets/close.svg";
 
 const Navbar = () => {
+  const [searchModal, setSearchModal] = useState(false);
+
+  const openSearch = () => {
+    setSearchModal(!searchModal);
+  };
+
   return (
     <nav>
       <div className="container">
         <div className="nav">
+          <div
+            className={
+              searchModal
+                ? "search-input-wrapper active-search"
+                : "search-input-wrapper"
+            }
+          >
+            <img
+              className="search-icon-nav"
+              src={searchIcon}
+              alt="search icon"
+            />
+            <input className="search-input" type="text" placeholder="Search" />
+            <img
+              className="close-icon-nav"
+              src={closeIcon}
+              alt="close icon"
+              onClick={openSearch}
+            />
+          </div>
           <a href="/" className="logo-wrapper">
             <img src={logo} alt="logo" className="logo" />
           </a>
@@ -39,8 +66,13 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="/#">
-                <img src={searchIcon} alt="search" className="nav-link" />
+              <a className="nav-link">
+                <img
+                  src={searchIcon}
+                  alt="search"
+                  className="search-icon-1"
+                  onClick={openSearch}
+                />
               </a>
             </li>
           </ul>

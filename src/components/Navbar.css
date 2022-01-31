@@ -15,6 +15,7 @@ nav {
   align-items: center;
   height: 80px;
   padding: 0 20px 0 24px;
+  position: relative;
 }
 
 .nav-links {
@@ -31,4 +32,44 @@ nav {
 
 .menu-btn {
   display: none;
+}
+
+.search-input-wrapper {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  padding: 16px 32px;
+}
+
+.search-input-wrapper.active-search {
+  display: block;
+}
+
+.search-input {
+  height: 100%;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.search-icon-nav {
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+
+.close-icon-nav {
+  position: absolute;
+  top: 26px;
+  right: 24;
+  cursor: pointer;
+}
+
+.search-icon-1 {
+  cursor: pointer;
 }

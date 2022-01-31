@@ -54,7 +54,7 @@ const Footer = () => {
             <a href="/#">
               <p className="footer-link">About</p>
             </a>
-            <a href="/#">
+            <a href="mailto:someone@yoursite.com?subject=Me&body=This is a test email">
               <p className="footer-link">Contact</p>
             </a>
             <a href="/#">

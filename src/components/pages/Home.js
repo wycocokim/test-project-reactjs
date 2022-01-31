@@ -68,7 +68,7 @@ const Home = () => {
               <div className="price-container">
                 <p className="dollar">$</p>
                 <p className="number-text">10</p>
-                <p className="monthly-text">/mo</p>
+                <p className="monthly-text color-gray">/mo</p>
               </div>
               <p className="paragraph-2 cta-1">
                 Unlimited access to motionstacks.
